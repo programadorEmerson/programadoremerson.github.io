@@ -208,6 +208,12 @@ p {
   font-size: 15px;
   text-align: justify;
 }
+.sub_descricao_experiencia {
+  margin: 20px;
+  text-align: left;
+  font-size: 17px;
+  text-align: justify;
+}
 .titulo {
   margin: 20px;
   font-weight: bold;
