@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 body,
 html {
   height: 100%;
@@ -239,6 +238,11 @@ p {
   font-weight: normal;
   text-align: left;
   font-size: 14px;
+}
+.outro-titulo-formacao {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
 }
 .cssBotoes {
   text-align: center;
