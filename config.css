@@ -214,6 +214,21 @@ p {
   text-align: center;
   font-size: 25px;
 }
+.ampliar {
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+.ampliar a:hover{
+    color: blue;
+    transition: .2s ease-in;
+    text-decoration: none;
+}
+.ampliar a{
+    color: black;
+    transition: .2s ease-in;
+    text-decoration: none;
+}
 .titulo-formacao {
   margin: 20px;
   font-weight: bold;
