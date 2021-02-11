@@ -8,6 +8,7 @@ html {
   top: 0;
   font-size: 100%;
   background-image: url(./images/fundo.png);
+  scroll-behavior: smooth;
 }
 .center,
 .container {
@@ -222,22 +223,34 @@ p {
 }
 .fonteFamily {
   font-family: Verdana, sans-serif;
-  font-style:italic;
+  font-style: italic;
 }
-.ampliar {
-  font-weight: bold;
-  text-align: center;
+.configBotao {
+  color: #FFFFFF;
+  background-color: #454645;
   font-size: 15px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
 }
-.ampliar a:hover{
-    color: blue;
-    transition: .2s ease-in;
-    text-decoration: none;
+.efeitosBotao {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
-.ampliar a{
-    color: black;
-    transition: .2s ease-in;
-    text-decoration: none;
+.efeitosBotao a {
+  color: #FFFFFF;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.efeitosBotao a:hover {
+  color: white;
+  background-color: black;
+  transition: 0.2s ease-in;
 }
 .titulo-formacao {
   font-weight: bold;
@@ -252,24 +265,4 @@ p {
   font-weight: bold;
   text-align: center;
   font-size: 16px;
-}
-.cssBotoes {
-  text-align: center;
-  font-size: 14px;
-  margin-right: 2px;
-}
-.atributos a{
-  text-align: right;
-  color: black;
-  margin-right: 10px;
-  text-decoration: none;
-}
-.atributos{
-  text-align: right;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-.atributos a:hover{
-    color: blue;
-    transition: .2s ease-in;
 }
