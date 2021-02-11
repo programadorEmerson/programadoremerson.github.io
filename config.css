@@ -187,7 +187,7 @@ p {
 }
 
 .imagem {
-  width: 280px;
+  width: 300px;
   padding-top: 20px;
   border-radius: 60px;
 }
@@ -224,4 +224,24 @@ p {
   font-weight: normal;
   text-align: left;
   font-size: 14px;
+}
+.cssBotoes {
+  text-align: center;
+  font-size: 14px;
+  margin-right: 2px;
+}
+.atributos a{
+  text-align: right;
+  color: black;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.atributos{
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.atributos a:hover{
+    color: blue;
+    transition: .2s ease-in;
 }
