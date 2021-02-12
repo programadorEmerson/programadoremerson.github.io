@@ -43,6 +43,7 @@ p {
   font-weight: 200;
   line-height: 1.8;
 }
+
 .font-light {
   font-weight: 300;
 }
@@ -221,12 +222,8 @@ p {
   text-align: center;
   font-size: 25px;
 }
-.fonteFamily {
-  font-family: Verdana, sans-serif;
-  font-style: italic;
-}
 .configBotao {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #454645;
   font-size: 15px;
   padding: 6px 10px;
@@ -238,12 +235,12 @@ p {
 }
 .efeitosBotao {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   margin-bottom: 5px;
 }
 .efeitosBotao a {
-  color: #FFFFFF;
+  color: #ffffff;
   margin-right: 10px;
   text-decoration: none;
 }
@@ -265,4 +262,8 @@ p {
   font-weight: bold;
   text-align: center;
   font-size: 16px;
+}
+.fonteFamily {
+  font-family: 'Doppio One', verdana, sans-serif;
+  font-style: italic;
 }
