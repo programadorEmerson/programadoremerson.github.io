@@ -106,7 +106,7 @@ html {
   text-align: justify;
 }
 .titulo {
-  margin: 20px;
+  margin: 10px;
   font-weight: bold;
   text-align: center;
   font-size: 25px;
@@ -155,4 +155,8 @@ html {
 .fonteFamily {
   font-family: 'Doppio One', verdana, sans-serif;
   font-style: italic;
+}
+.paddingTB {
+  padding-top: 10px;
+  padding-bottom: 15px;
 }

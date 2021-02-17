@@ -4,24 +4,30 @@
   font-family: Arial;
   font-weight: 600;
 }
-.navbar img{
-  max-width:50%;
-}
 .conteudoMenu {
-  padding-top: 10px;
-  margin: auto;
+  text-align: center;
+  float: left;
+  line-height: 40px;
+  margin-top: 12px;
+}
+.alinhamentoDaImagem {
+  text-align: center;
 }
 
 .navbar a {
-  float: right;
-  font-size: 16px;
+  font-size: 100%;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  margin: 10px;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   color: yellow;
   transition: 0.2s ease-in;
 }
+
+.navbar img {
+  width: 100%;
+  max-width: 50%;
+}
+
